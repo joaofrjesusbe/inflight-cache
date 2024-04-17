@@ -1,7 +1,7 @@
 # InflightCache
 
-A simple in-memory cache based on NSCache that takes in account in flight requests. It is useful when you want to avoid multiple requests for the same resource.
-Supports concurrent request for the same resource and waits for the first request to complete.
+A simple in-memory cache based on NSCache that takes in account inflight requests. It's useful when you want to avoid multiple requests for the same resource.
+Supports concurrent requests and waits for the first request of the same input to complete.
 
 ## Usage
 
