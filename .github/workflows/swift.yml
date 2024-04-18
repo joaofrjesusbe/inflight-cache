@@ -3,6 +3,12 @@
 
 name: Swift
 
+on:
+  push:
+    branches: [ "main", "feature/workflow" ]
+  pull_request:
+    branches: [ "main" ]
+
 jobs:
   build:
 
