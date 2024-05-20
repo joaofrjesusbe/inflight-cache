@@ -6,7 +6,7 @@ Supports concurrent requests and waits for the first request of the same input t
 ## Usage
 
 First create a configuration for the cache.
-This as 2 properties:
+This has 2 properties:
 - sharedRequest: a function that will be called when a request is not in the cache
 - outputToId: a function that will be called to extract the id of the request value
 
